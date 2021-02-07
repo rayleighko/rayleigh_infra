@@ -24,5 +24,5 @@ resource "aws_dynamodb_table" "terraform_state_lock" {
 }
 
 variable "account_id" {
-  default = "perpick-prod" # Please use the account alias for id
+  default = "rayleigh-prod" # Please use the account alias for id
 }

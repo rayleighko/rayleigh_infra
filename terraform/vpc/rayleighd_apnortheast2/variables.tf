@@ -77,6 +77,6 @@ variable "env_suffix" {
   default     = ""
 }
 
-# peering ID with perpickp VPC
-variable "vpc_peer_connection_id_perpickp_apne2" {}
-variable "perpickp_destination_cidr_block" {}
+# peering ID with rayleighp VPC
+variable "vpc_peer_connection_id_rayleighp_apne2" {}
+variable "rayleighp_destination_cidr_block" {}

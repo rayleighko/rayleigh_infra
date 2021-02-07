@@ -77,9 +77,9 @@ variable "env_suffix" {
   default     = ""
 }
 
-# peering ID with perpickp VPC
-variable "vpc_peer_connection_id_perpickd_apne2" {}
-variable "perpickd_destination_cidr_block" {}
+# peering ID with rayleighp VPC
+variable "vpc_peer_connection_id_rayleighd_apne2" {}
+variable "rayleighd_destination_cidr_block" {}
 variable "vpc_peerings" {
   description = "A list of maps containing key/value pairs that define vpc peering."
   type        = list(any)

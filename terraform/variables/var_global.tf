@@ -20,22 +20,22 @@ variable "remote_state" {
   default = {
     # VPC
     vpc = {
-      perpickdapne2 = {
+      rayleighdapne2 = {
         region = "ap-northeast-2"
-        bucket = "perpick-id-apnortheast2-tfstate"
-        key    = "perpick/terraform/vpc/perpicki_apnortheast2/terraform.tfstate"
+        bucket = "rayleigh-id-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/vpc/rayleighi_apnortheast2/terraform.tfstate"
       }
 
-      perpickpapne2 = {
+      rayleighpapne2 = {
         region = "ap-northeast-2"
-        bucket = "perpick-dev-apnortheast2-tfstate"
-        key    = "perpick/terraform/vpc/perpickd_apnortheast2/terraform.tfstate"
+        bucket = "rayleigh-dev-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/vpc/rayleighd_apnortheast2/terraform.tfstate"
       }
 
-      perpickpapne3 = {
+      rayleighpapne3 = {
         region = "ap-northeast-2"
-        bucket = "perpick-prod-apnortheast2-tfstate"
-        key    = "perpick/terraform/vpc/perpickp_apnortheast2/terraform.tfstate"
+        bucket = "rayleigh-prod-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/vpc/rayleighp_apnortheast2/terraform.tfstate"
       }
     }
 
@@ -55,20 +55,20 @@ variable "remote_state" {
 
       id = {
         region = "ap-northeast-2"
-        bucket = "perpick-id-apnortheast2-tfstate"
-        key    = "perpick/terraform/iam/perpick-id/terraform.tfstate"
+        bucket = "rayleigh-id-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/iam/rayleigh-id/terraform.tfstate"
       }
 
       dev = {
         region = "ap-northeast-2"
-        bucket = "perpick-id-apnortheast2-tfstate"
-        key    = "perpick/terraform/iam/perpick-dev/terraform.tfstate"
+        bucket = "rayleigh-id-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/iam/rayleigh-dev/terraform.tfstate"
       }
 
       prod = {
         region = "ap-northeast-2"
-        bucket = "perpick-id-apnortheast2-tfstate"
-        key    = "perpick/terraform/iam/perpick-prod/terraform.tfstate"
+        bucket = "rayleigh-id-apnortheast2-tfstate"
+        key    = "rayleigh/terraform/iam/rayleigh-prod/terraform.tfstate"
       }
     }
 
@@ -79,24 +79,24 @@ variable "remote_state" {
       id = {
         apne2 = {
           region = "ap-northeast-2"
-          bucket = "perpick-id-apnortheast2-tfstate"
-          key    = "perpick/terraform/kms/perpick-id/id_apnortheast2/terraform.tfstate"
+          bucket = "rayleigh-id-apnortheast2-tfstate"
+          key    = "rayleigh/terraform/kms/rayleigh-id/id_apnortheast2/terraform.tfstate"
         }
       }
 
       dev = {
         apne2 = {
           region = "ap-northeast-2"
-          bucket = "perpick-dev-apnortheast2-tfstate"
-          key    = "perpick/terraform/kms/perpick-dev/dev_apnortheast2/terraform.tfstate"
+          bucket = "rayleigh-dev-apnortheast2-tfstate"
+          key    = "rayleigh/terraform/kms/rayleigh-dev/dev_apnortheast2/terraform.tfstate"
         }
       }
 
       prod = {
         apne2 = {
           region = "ap-northeast-2"
-          bucket = "perpick-prod-apnortheast2-tfstate"
-          key    = "perpick/terraform/kms/perpick-prod/prod_apnortheast2/terraform.tfstate"
+          bucket = "rayleigh-prod-apnortheast2-tfstate"
+          key    = "rayleigh/terraform/kms/rayleigh-prod/prod_apnortheast2/terraform.tfstate"
         }
       }
 

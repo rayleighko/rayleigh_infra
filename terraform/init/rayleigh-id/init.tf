@@ -24,5 +24,5 @@ resource "aws_s3_bucket" "tfstate" {
 # }
 
 variable "account_id" {
-  default = "perpick-id" # Please use the account alias for id
+  default = "rayleigh-id" # Please use the account alias for id
 }

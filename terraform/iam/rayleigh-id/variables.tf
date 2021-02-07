@@ -36,6 +36,6 @@ variable "remote_state_key_map" {
   type = map(string)
 
   default = {
-    "kms_apne2" = "perpick/terraform/kms/perpick-id/id_apnortheast2/terraform.tfstate"
+    "kms_apne2" = "rayleigh/terraform/kms/rayleigh-id/id_apnortheast2/terraform.tfstate"
   }
 }

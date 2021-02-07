@@ -9,8 +9,8 @@ ASSUME_ROLE_ARN=""
  
 # Please set the vairables below.
 # Need to change the role's ARN properly.
-PRD_ASSUME_ROLE_ARN="arn:aws:iam::{your-prod-account_id}:role/assume-perpick-prod-admin"
-DEV_ASSUME_ROLE_ARN="arn:aws:iam::{your-dev-account_id}:role/assume-perpick-dev-admin"
+PRD_ASSUME_ROLE_ARN="arn:aws:iam::{your-prod-account_id}:role/assume-rayleigh-prod-admin"
+DEV_ASSUME_ROLE_ARN="arn:aws:iam::{your-dev-account_id}:role/assume-rayleigh-dev-admin"
  
 # Please change to your e-mail.
 SESSION_NAME="ray.ko" 

@@ -1,8 +1,8 @@
 #
-# perpick-dev administrator
+# rayleigh-dev administrator
 #
-resource "aws_iam_role" "assume_perpick_dev_admin" {
-  name                 = "assume-perpick-dev-admin"
+resource "aws_iam_role" "assume_rayleigh_dev_admin" {
+  name                 = "assume-rayleigh-dev-admin"
   path                 = "/"
   max_session_duration = "43200"
   assume_role_policy   = <<EOF
@@ -22,9 +22,9 @@ resource "aws_iam_role" "assume_perpick_dev_admin" {
 EOF
 }
 
-resource "aws_iam_role_policy" "assume_perpick_dev_admin" {
-  name = "assume-perpick-dev-admin-passrole"
-  role = aws_iam_role.assume_perpick_dev_admin.id
+resource "aws_iam_role_policy" "assume_rayleigh_dev_admin" {
+  name = "assume-rayleigh-dev-admin-passrole"
+  role = aws_iam_role.assume_rayleigh_dev_admin.id
 
   policy = <<EOF
 {
@@ -42,7 +42,7 @@ resource "aws_iam_role_policy" "assume_perpick_dev_admin" {
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "assume_perpick_dev_admin" {
-  role       = aws_iam_role.assume_perpick_dev_admin.id
+resource "aws_iam_role_policy_attachment" "assume_rayleigh_dev_admin" {
+  role       = aws_iam_role.assume_rayleigh_dev_admin.id
   policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 }
